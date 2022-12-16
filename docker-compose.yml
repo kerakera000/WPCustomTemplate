@@ -12,6 +12,7 @@ services:
     volumes:
       - wpData:/var/www/html
       - ./testsite:/var/www/html/wp-content/themes/testsite # 自身のテーマのディレクトリと共有
+      - ./my-plugin:/var/www/html/wp-content/plugins/my-plugin #プラグイン追加
     environment:
       TZ: 'Asia/Tokyo'
       WORDPRESS_DB_HOST: 'db:3306'
