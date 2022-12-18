@@ -12,7 +12,11 @@
 
     <?php wp_head(); ?>
 	</head>
-	<body>
+	<body class="body">
 		<header>
-            <h1>Hello World</h1>
+			<h2>WP開発使えそうな物</h2>
+			<ul>
+				<li>カスタム投稿</li>
+				<li>その他</li>
+			</ul>
 		</header>
