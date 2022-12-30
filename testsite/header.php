@@ -14,9 +14,9 @@
 	</head>
 	<body class="body">
 		<header>
-			<h2>WP開発使えそうな物</h2>
-			<ul>
-				<li>カスタム投稿</li>
-				<li>その他</li>
-			</ul>
+			<nav>
+				<a href="#">Home</a>
+				<a href="#">About</a>
+				<a href="#">Contact</a>
+			</nav>
 		</header>
