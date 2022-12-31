@@ -15,8 +15,11 @@
 	<body class="body">
 		<header>
 			<nav>
-				<a href="#">Home</a>
-				<a href="#">About</a>
-				<a href="#">Contact</a>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
 			</nav>
 		</header>
