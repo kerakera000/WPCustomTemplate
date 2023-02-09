@@ -3,6 +3,7 @@
 ## 作成目的や使用方法など
 
 ### 作成目的  
+
     使いまわし可能なテンプレートの作成
 
 ### 使用方法やどこに何があるかなど  
@@ -10,6 +11,7 @@
 #### 1.メインcssはtestsite/css/style.cssを読み込んでます  
 
 #### 2.scssの構造  
+
         1.style.scssにsassフォルダの該当ファイルの中身を読み込んで一つのcssにまとめている。  
         2.sassフォルダはfoundation, content, pageで構成されている  
         3.それぞれのscss名の頭文字に管理しているディレクトリの頭文字を付けた  
@@ -26,11 +28,13 @@
             page：contentをまとめた内容を管理  
 
 #### 3.scssの読み込みルール  
+
         1.@useを使う(理由：importが廃止になるらしい)  
         2.scssの読み込み先は一歩通行で読み込まなければならない(詳細は4.scssの読み込みの順番)  
         3.読み込み先の例外を作ると後から大変になるから作ってはいけない。
 
 #### 4.scssの読み込みの順番  
+
         1.style.scssはpageフォルダの内容のみを読み込める  
         2.page内のscssはcontentフォルダの内容のみを読み込める  
         3.content内のscssはfoundationフォルダの内容のみを読み込める  
@@ -46,16 +50,15 @@
 
 ## docker構築あれこれはここから
 
-### 1.docker-compose.yml内の下記の番号を変える。  
+### 1.docker-compose.yml内の下記の番号を変える
+
 　asterisk 初めて使うか毎回dockerデータベース消してるなら変えなくてもいいかも
 
 　　　　wp:  
 　　　　　ports:  
 　　　　　　- '8080:80'  
 
-### 2.ターミナルで　`sudo docker-compose up -d`　のみ
-
-*testsiteの中身をマウントしているからそこにオリジナルテーマ内容を書き込む*
+### 2.ターミナルで　`sudo docker-compose up -d`　のみ  
 
 ## 不具合発生時などのコマンド一覧
 
