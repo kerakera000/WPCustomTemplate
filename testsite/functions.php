@@ -9,6 +9,7 @@
     require_once locate_template('functions/theme-support/add-image-size.php', true);
     require_once locate_template('functions/first-menuWP/normal-menu.php', true);
     require_once locate_template('functions/first-menuWP/addmenu.php', true);
+    require_once locate_template('functions/create-page/create-newpage.php', true);
     require_once locate_template('functions/WPstyleALL/style.php', true);
 
 ?>
